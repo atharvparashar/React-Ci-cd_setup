@@ -22,3 +22,6 @@ jobs:
          uses: actions/checkout@v2
        - name: "install dependcery"
          run: npm install
+
+       - name: "list dirctries"
+         run: ls -a 
