@@ -17,3 +17,6 @@ jobs:
         
        - name: "code check"
          run: node --version
+
+       - name: "clone repo"
+         uses: actions/checkout@v2
